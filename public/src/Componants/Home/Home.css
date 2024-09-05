@@ -1,0 +1,123 @@
+.block{
+    height: 100vh;
+    color: #E3E3E4;
+    background: linear-gradient(to left,#8b86a3a8,#322e40ba);
+    background-size: cover;
+
+}
+
+.block h1 {
+    /* font-f-+0amily: 'Roboto',sans-serif; */
+    font-weight: 100 ;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 15px;
+    padding-bottom: 45px;
+}
+.block p {
+    font-size: 23px;
+    line-height: 40px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.about-us-title h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+}
+.about-us-para{
+    color: #7B7B7B;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 28px;
+}
+.about-us-img img{
+height: 400px;
+}
+.idea-section h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.idea-section p{
+    color: #8d8f92;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 0 0 10px;
+}
+.idea-section .btn-view-works{
+    color: white;
+    background-color: #605f5f;
+}
+.block1{
+    height: 40vh;
+    background: linear-gradient(to left,#8b86a3a8,#322e40ba);
+}
+.block1 h2{
+    /* padding-bottom: 20px; */
+    line-height: 33px;
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    /* text-transform: uppercase; */
+}
+.block1 p{
+    padding: 50px;
+    line-height: 33px;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    /* text-transform: uppercase; */
+}
+@media (max-width:600px) {
+    .about-us-img img {
+        width: 100%;
+        height: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .block h1 {
+        font-size: 20px;
+        line-height: 1.7rem;
+        letter-spacing: 7px;
+        margin-top: 150px;
+        padding: 10px;
+    }
+    .block p {
+        font-size: 14px;
+        line-height: 26px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .block {
+height: 157vh;
+text-align: center;
+    }
+    .about-us-para {
+        color: #7B7B7B;
+        padding-top: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .about-us-info{
+        margin: 0 !important;
+        /* padding: 0 !important; */
+    }
+    .block1 {
+        height: 138vh;
+        /* background: linear-gradient(to left, #8b86a3a8, #322e40ba); */
+    }
+    .block1 h2 {
+        font-size: 25px;
+    }
+    .block1 p {
+        font-size: 14PX;
+    }
+    
+}
+
+

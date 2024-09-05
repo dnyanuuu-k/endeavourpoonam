@@ -1,0 +1,123 @@
+
+.flip3D {
+  /* width: 460px; */
+  height: 680px;
+  font-size: 16pt;
+  font-weight: 300;
+  display: inline-block;
+  /* float: left; */
+}
+.flip3D .front {
+  position: absolute;
+  -webkit-transform: perspective(8000px) rotateY(0deg);
+  transform: perspective(8000px) rotateY(0deg);
+ 
+  /* color: #fff; */
+  width: 300px;
+  height: 680px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: transform .8s linear 0.2s;
+  -moz-transition: transform .8s linear 0.2s;
+  -ms-transition: transform .8s linear 0.2s;
+  -o-transition: transform .8s linear 0.2s;
+  transition: transform .8s linear 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-position: bottom;
+  background: linear-gradient(to right bottom, #023243 , rgb(0, 134, 175));
+  color: white;
+
+  background-size: cover;
+  /* border: 1px solid #000; */
+}
+.flip3D .front .about {
+  color: black;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.6);
+}
+.flip3D .front .about h4 {
+  /* font-weight: 400; */
+  text-transform: uppercase;
+  /* color: white; */
+  /* font-size: 42px; */
+  text-align: center;
+  color: rgb(9, 14, 85);
+  color: white;
+
+}
+.flip3D .front .about p {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /* color: white; */
+  text-align: center;
+}
+
+
+.flip3D .front .turn {
+  height: 35px;
+  width: 100%;
+  background: #222222;
+  background: rgba(34, 34, 34, 0.75);
+  position:fixed;
+  bottom: 0;
+
+}
+
+.flip3D:hover .front {
+  -webkit-transform: perspective(8000px) rotateY(180deg);
+  transform: perspective(8000px) rotateY(180deg);
+}
+.flip3D .back {
+  position: absolute;
+  -webkit-transform: perspective(8000px) rotateY(180deg);
+  transform: perspective(8000px) rotateY(180deg);
+  background: linear-gradient(to right bottom, #023243 , rgb(0, 134, 175));
+  color:white;
+  width: 300px;
+  height: 680px;
+  border-radius: 1, 5px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: transform .8s linear 0.2s;
+  -moz-transition: transform .8s linear 0.2s;
+  -ms-transition: transform .8s linear 0.2s;
+  -o-transition: transform .8s linear 0.2s;
+  transition: transform .8s linear 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  /* background: #ffffff; */
+}
+
+
+
+.flip3D .back .backContent div {
+  display: inline-block;
+  /* width: 460px; */
+}
+.backContent h4 {
+   font-size: 45px;
+   font-weight: 100;
+}
+
+.flip3D:hover .back {
+  -webkit-transform: perspective(8000px) rotateY(0deg);
+  transform: perspective(8000px) rotateY(0deg);
+}
+.price-details{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* text-decoration: none; */
+}
+.price-details li{
+  font-size: 15px;
+  color: white;
+  /* color: rgb(43, 43, 43); */
+}
+.plan-container{
+  max-width: 1400px !important;
+}
+/* @media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1299px;
+} */

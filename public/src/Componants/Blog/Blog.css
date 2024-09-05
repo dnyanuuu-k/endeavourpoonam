@@ -1,0 +1,30 @@
+.blog-card{
+    outline: none !important;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.068);
+    text-decoration: none;
+    height: 400px;
+}
+.blog-card img {
+    /* margin: 0;
+    padding: 0; */
+    border-radius: 10px;
+}
+.card-blog-title{
+    font-size: 18px;
+    color: rgb(75, 150, 231);
+}
+.text-gray-blog{
+    font-size: 12px;
+    color: gray;
+}
+.text-gray-blog span{
+    color: rgb(75, 150, 231);
+}
+.blog-content{
+    color: black;
+}
+.catageries-of-singleblog p{
+color: gray;
+font-size: 18px;
+font-weight: 500;
+}

@@ -1,0 +1,15 @@
+.text-right{
+    margin-left: 400px;
+}
+.nav-link1{
+    margin-left: 30px;
+    }
+    .logo{
+        height: 50px;
+    }
+
+    @media (max-width:600px) {
+        .logo {
+            height: 40px;
+        }
+    }
